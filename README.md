@@ -12,4 +12,4 @@
 ## Milestones
 1. [5/5] 01/01/2022 Explore Blockchain Principles
 2. [5/5] 01/02/2022 Understand Blockchain Economics
-3. [5/5] 01/03/2022 Javascript part1
+3. [5/5] 01/03/2022 [Javascript part1](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/milestones-website)
