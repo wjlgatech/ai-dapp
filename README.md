@@ -3,7 +3,10 @@
 ## Objectives (2022 Q1)
 1. learn blockchain technologies and cryto tradings 
 2. build a AI based cryto trading Dapp
-3. establish a synergetic community to learn & make 
+3. establish a synergetic community to learn & make
+
+## Want to join a learning group?
+- Please shoot me a message through [Linkedin](https://www.linkedin.com/in/paul-jialiang-wu-67aa7179/)
 
 ## Routines
 1. online meetup 2 hr/day * 3-4 days/week to learn & build (datetime TBD)
