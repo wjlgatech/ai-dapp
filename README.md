@@ -1,6 +1,9 @@
-# ai-dapp: learn & make AI based Dapps
+# ai-dapp: learn & make AI based Decentralized Apps
 
-## Objectives (2022 Q1)
+## Objectives 
+
+**2022 Q1: 01/01/2022-03/31/2022**
+
 1. learn blockchain technologies and cryto tradings 
 2. build a AI based cryto trading Dapp
 3. establish a synergetic community to learn & make
