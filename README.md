@@ -10,6 +10,6 @@
 2. weekly write about what I learn and share it in YouTube and Linkedin
 
 ## Milestones
-1. [5/5] 01/01/2022 Explore Blockchain Principles
-2. [5/5] 01/02/2022 Understand Blockchain Economics
+1. [5/5] 01/01/2022 [Explore Blockchain Principles](https://github.com/wjlgatech/ai-dapp/tree/main/learning-blockchain-principles)
+2. [5/5] 01/02/2022 [Understand Blockchain Economics](https://github.com/wjlgatech/ai-dapp/tree/main/learning-blockchain-economics)
 3. [5/5] 01/03/2022 [Javascript part1](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/milestones-website)
