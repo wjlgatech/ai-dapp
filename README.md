@@ -1,1 +1,15 @@
-# ai-dapp
+# ai-dapp: learn & make AI based Dapps
+
+## Objectives (2022 Q1)
+1. learn blockchain technologies and cryto tradings 
+2. build a AI based cryto trading Dapp
+3. establish a synergetic community to learn & make 
+
+## Routines
+1. online meetup 2 hr/day * 3-4 days/week to learn & build (datetime TBD)
+2. weekly write about what I learn and share it in YouTube and Linkedin
+
+## Milestones
+1. [5/5] 01/01/2022 Explore Blockchain Principles
+2. [5/5] 01/02/2022 Understand Blockchain Economics
+3. [5/5] 01/03/2022 Javascript part1
