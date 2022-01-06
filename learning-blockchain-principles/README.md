@@ -41,7 +41,7 @@ Truth is like mathematics!
 
 Q: What is resposibility about the system, about the actors?
 
-If a system is designed without taking responsibility in its core, it could pursue profit all the time all the means, ending up net negative to its enviroment, our next generation, other people, animals. A good example is the China Communist Party.
+If a system is designed without taking responsibility in its core, it could pursue profit all the time all the means, ending up net negative to its enviroment, our next generation, other people, animals.
 
 ### Decentralization
 
@@ -51,7 +51,7 @@ Q: What does decentralization look like?
 - BitTorrent (file storage and download)
 
 Q: Why it matter? (what are the painpoints of a centralized system? What if we do not have decentralization?)
-A: think about how to overturn a totalism-marfi goverment like CCP, who control everything within its Great Fire Wall; think about WallStreet, Hollywood, CIA, SocialMedia big tech.
+A: think about how to break control of a totalism-marfi goverment, who controls everything within its Great Wall; think about WallStreet, Hollywood, CIA, SocialMedia big tech.
 
 ### Scaling 
 
