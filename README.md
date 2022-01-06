@@ -18,4 +18,5 @@
 ## Milestones
 1. [5/5] 01/01/2022 [Explore Blockchain Principles](https://github.com/wjlgatech/ai-dapp/tree/main/learning-blockchain-principles)
 2. [5/5] 01/02/2022 [Understand Blockchain Economics](https://github.com/wjlgatech/ai-dapp/tree/main/learning-blockchain-economics)
-3. [5/5] 01/03/2022 [Javascript part1](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/milestones-website)
+3. [5/5] 01/03/2022 [Javascript part1: building a milestones tracking website](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/milestones-website)
+4. [5/5] 01/06/2022 [Javascript part2: building a cryto mining game website](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/mining-game)
