@@ -20,3 +20,7 @@
 2. [5/5] 01/02/2022 [Understand Blockchain Economics](https://github.com/wjlgatech/ai-dapp/tree/main/learning-blockchain-economics)
 3. [5/5] 01/03/2022 [Javascript part1: building a milestones tracking website](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/milestones-website)
 4. [5/5] 01/06/2022 [Javascript part2: building a cryto mining game website](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/mining-game)
+5. [5/5] 01/07/2022 [Javascript part3:]()
+
+### Resources & Credits
+- [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)
