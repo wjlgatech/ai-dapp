@@ -14,25 +14,25 @@
         <form id='bet'>
             <input placeholder='Your Name' name='better' type="placeholder" required><br>
             <input type='number' name='bet' min='1' max='1000' required><br>
-            <button type='submit'>Submit</button>
+            <button type='submit'>Submit!</button>
         </form>
         <br>
         <button id='winner' type='submit'>Winner!</button>
     </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
     <script src='game.js'></script>
     <script>    
-        $('#bet').submit(function(e){
-            e.preventDefault(); // prevents page reloading
-            let value = $('input[name=bet]').val();
-            let name = $('input[name=better]').val();
-            console.log(name + "'s guess is " + value);
-            addBet({name,value});
+        $('#bet').submit(function(e){ // #bet is the id of the form in the html v.s. .bet is the class of the form in the js; $(#bet) is the jquery selector
+            //e.preventDefault(); // prevents page reloading
+            let value = $('input[name=bet]').val(); // get the value of the input 'bet'
+            let name = $('input[name=better]').val(); // get the value of the input 'better'
+            console.log(name + "'s guess is " + value); // log the value of the input 'bet' provided by the user
+            addBet({name,value}); // pass the value of the input 'bet' to the function addBet
        
         });
-        $('#winner').click(() => {
-            let winner = getWinner();
-            console.log("The winner is :" + winner.name);
+        $('#winner').click(() => { // when the button 'winner' is clicked
+            let winner = getWinner(); // get the winner
+            console.log("The winner is :" + winner.name); // log the winner name to the console
         });
     </script>
     

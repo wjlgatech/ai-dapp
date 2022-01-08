@@ -1,18 +1,18 @@
 var bets = []; // to store the bets
 
-function addBet(bet) {
+function addBet(bet) { // bet is an object with the following properties:{name,value}
     bets.push(bet);//add bet to array
 }
 
-let generateRandomNumber = () => { // generate random number between 1 and 1000
+let generateRandomNumber = () => { // generate random number between 1 and 1000; here => is a function expression and not a function declaration
     return Math.floor(Math.random() * 1000 + 1);}
 
 let getWinner = () => { // get the winner
-    let winNum = generateRandomNumber();
-    let closest = 1001;
-    let currWinner = 0; // index into bets array
+    let winNum = generateRandomNumber(); // generate random number as the winning number
+    let closest = 1001; // initialize the closest number to 1001
+    let currWinner = 0; // initialize the current winner to 0
 
-    for (var i = 0; i < bets.length; i++) {
+    for (var i = 0; i < bets.length; i++) { // loop through the bets to find the closest number
         let diff = Math.abs(bets[i].value - winNum);
         if (diff < closest) {
             closest = diff;
@@ -20,7 +20,7 @@ let getWinner = () => { // get the winner
         }
     }
 
-    return bet[currWinner];
+    return bet[currWinner]; // return the winner with the closest number
 }
 
 function clearBets() { // clear bets
