@@ -18,7 +18,7 @@ Open up a terminal, go to your folder e.g. `cd /Users/my-account-name/Documents/
 
 ```zsh
 \u@\h \W\[\033[32m\]$(parse_git_branch)\[\033[00m\] $ c example.js
-\u@\h \W\[\033[32m\]$(parse_git_branch)\[\033[00m\] $ node
+\u@\h \W\[\033[32m\]$(parse_git_branch)\[\033[00m\] $ nodecd
 Welcome to Node.js v16.13.1.
 Type ".help" for more information.
 > //number. string. boolean. object. function. array. 
