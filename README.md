@@ -26,3 +26,5 @@
 
 ### Resources & Credits
 - [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)
+
+- [Cryto Theses for 2022 by Messari](https://github.com/wjlgatech/ai-dapp/blob/main/messari-report-crypto-theses-for-2022.pdf)
