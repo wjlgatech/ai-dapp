@@ -147,4 +147,63 @@ $$selected miner = random_selection(miner's stake, hash value)$$
     - coin age = number of stake * number of days of stake
     - selected miner = fn(random_selection(), coin age)
     - usually a miner need to wait for 30 days to be selected; once a miner is selected, his coin age is reset back to 0.
+
+
+
+### Incentives on Blockchain
+References & Credits: https://courses.blockgeeks.com/lesson/incentives-on-the-blockchain/
+
+Q: what is economics?
+
+A: economics study how people make decision and how to design incentives so that people act toward the objective you set up. The decisions are usually make to maximize some objectives under certain constraints. It fits into the framework of Optimization and Reinforcement Learning:
+- Optimization: In order to optimize (max/min) the objective function, you adjust the decision variables which are under certain constraints.
+
+- Reinforcement Learning: In order to maximize the long term return, you the agent adjust your strategy to act under various circumstance (state) which will give you instant reward and move you to another circustance (state*). State-ActionStrategy-Action-Reward-newState (SAARS).
+
+Q: How does bitcoin economics work? (i.e. what is the incentive in bitocoin so that people are motivated to help instead of hurt)
+
+- In short, Bitcoin system is designed in such a way that the cost of covering up your double spending of bitcoin will be NX (e.g. N=10) the benifit of double spending.
+
+### Game theory
+Ref: https://courses.blockgeeks.com/lesson/game-theory-2/
+Q: What is game theory?
+A: Game theory study how people make decisions under the context of guessing how their opponent make decisions.
+
+Q: How does game theory applied in blockchain?
+A: Work backwards to design a game where each player working in their own self-interest produces the best outcome for the network
+
+**Proof of work** is a game where the `Nash Equilibrium` is all the miners contributing to the longest chain and mining only valid blocks.
+
+In the view of game theory, what differentiate **Proof of Stake** vs Proof of work?
+- In proof of stake, the process for becoming a miner is more selective
+- The penalty for cheating in proof of stake is a lot higher
+- Proof of stake consumes a lot less energy
+
+![](images/cryptoecon-game-theory0.png)
+![](images/cryptoecon-game-theory1.png)
+![](images/cryptoecon-game-theory2.png)
+
+Ref: https://blockgeeks.com/guides/blockchain-consensus/
+
+### Applications of cryptoenconomics
+Reference & credits: https://courses.blockgeeks.com/lesson/applications-of-cryptoeconmics/
+
+- consensus protocols
+    - proof of work: solving puzzles and receiving reward i.e. Bitcoin
+    - proof of stake: i.e. Etherem
     
+- what if commerce become global & boarderless?
+- what if banking become decentralized?
+- what if organization (gov, com, org) become decentralized & self-organized (DAO)?
+
+- finance implications
+    - ICO: raise funding globally
+    - create your own currency
+    - cryptocurrency exchange
+- goverance implications
+    - programmable legal contract
+    - decentralized goverments
+    - transparent election
+
+- underlying technologies: bitcoin->blockchain
+- unifying principles: crypto-enconomics    
