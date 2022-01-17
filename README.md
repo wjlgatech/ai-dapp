@@ -22,5 +22,7 @@
 4. [5/5] 01/06/2022 [Javascript part2: building a cryto mining game website](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/mining-game)
 5. [5/5] 01/08/2022 [Javascript part3: js variables and operations](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/js-variables-operations)
 6. [5/5] 01/11/2022 [CrytoEcon](https://github.com/wjlgatech/ai-dapp/tree/main/crytoecon)
+7. [5/5] 01/13-15/2022 [CrytoEcon: POW, POS](https://github.com/wjlgatech/ai-dapp/tree/main/crytoecon)
+
 ### Resources & Credits
 - [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)
