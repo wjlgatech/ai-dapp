@@ -24,6 +24,7 @@
 6. [5/5] 01/11/2022 [CrytoEcon](https://github.com/wjlgatech/ai-dapp/tree/main/crytoecon)
 7. [5/5] 01/13-15/2022 [CrytoEcon: POW, POS](https://github.com/wjlgatech/ai-dapp/tree/main/crytoecon)
 8. [5/5] 01/17/2022 [CrytoEcon: applications of game theory in cryptoeconomics](https://github.com/wjlgatech/ai-dapp/tree/main/crytoecon)
+9. [5/5]01/19/2022 - 01/26/2022 [CrytoEcon: Public Key Cryptograph, Crypto Math](https://github.com/wjlgatech/ai-dapp/tree/main/crytoecon)
 
 ### Resources & Credits
 - [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)
