@@ -179,9 +179,9 @@ In the view of game theory, what differentiate **Proof of Stake** vs Proof of wo
 - The penalty for cheating in proof of stake is a lot higher
 - Proof of stake consumes a lot less energy
 
-![](images/cryptoecon-game-theory0.png)
-![](images/cryptoecon-game-theory1.png)
-![](images/cryptoecon-game-theory2.png)
+![](../images/cryptoecon-game-theory0.png)
+![](../images/cryptoecon-game-theory1.png)
+![](../images/cryptoecon-game-theory2.png)
 
 Ref: https://blockgeeks.com/guides/blockchain-consensus/
 
@@ -297,6 +297,7 @@ Q: what are the difference between a == b vs a mod p == b mod p?
 - example: I wake up at the same hour of today as yesterday, e.g. 7am. It does not mean the wake up time today 01/26/2022 7am is the same as the wake up time yesterday 01/25/2022 7am, it only means that the 2 time are equal after you mod them by 24 hr. 
 
 Q: what is the difference between $3^x = a$ and $3^x mod 7 = a mod 7$?
+
 A: $3^x = a$ means 3 is x-root of $a$ e.g. $3 = a ^(1/x)$
 while $3^x mod 7 == a mod 7$ means 3 is x-root of a in the sense of mod 7.
 
@@ -311,6 +312,7 @@ STEP2:
     - Bob picks his secret number b=8 and calculate his public value B= (g=3)^(b=8) mod(p=7) = 3^8mod7 = 2, which is broadcasted to the public.
 
 STEP3:
+
     - Alice receives Bob's pubilcated number B=2 and then calculate her secret s = (B=2)^(a=10) mod(p=7)=2^10mod7=2
     - Bob receives Alice publicated number A=4 and then calculate his secret s=(A=4)^(b=8) mod(p=7)=4^8mod8=2
     - Now both Alice and Bob has the same shared secret $2$ just between themselves, nobody else.
@@ -318,6 +320,7 @@ STEP3:
     
     
 Q: Why this works mathematically?
+
 A: **Prime Multiplicative Groups**: when a prime modulus (says, $mod p = mod 7$) is used, each exponential increment will return a continuous pattern of each positive integer below the modulus 7.
 
 
@@ -325,3 +328,4 @@ e.g. **3^0 mod7 = 1 mod7** -> 3^1 mod7 = 3 mod7 ->3^2 mod7 = 2 mod7 ->3^3 mod7 =
 
 Abelian Group: the group operation (multiplication) can be performed on any two elements in any order. e.g. $A^b modp = B^a modp = G^(ab) modp = G^(ba) modp$
 
+![](../images/cryptomath_abelian_group.png)
