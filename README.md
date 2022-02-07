@@ -26,6 +26,7 @@
 8. [5/5] 01/17/2022 [CrytoEcon: applications of game theory in cryptoeconomics](https://github.com/wjlgatech/ai-dapp/tree/main/crytoecon)
 9. [5/5]01/19/2022 - 01/26/2022 [CrytoEcon: Public Key Cryptograph, Crypto Math](https://github.com/wjlgatech/ai-dapp/tree/main/crytoecon)
 10.[4/5] 02/01/2022 - 02/05/2022 [DiFi crash course](https://github.com/wjlgatech/ai-dapp/tree/main/DiFi)
+11.[5/5] 02/07/2022 [Understand when to use Blockchain](https://github.com/wjlgatech/ai-dapp/tree/main/when_to_use_blockchain)
 
 ### Useful Resources
 - [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)

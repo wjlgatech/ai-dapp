@@ -116,3 +116,8 @@ DiFi, Decentralized Finance, is a movement that leverages decentralized networks
 
 ### Q3. How DiFi builds a global, permissionless alternative to EVERY financial service we have today?
 
+Example: MakerDAO & DAI:
+- Maker have several features
+    - stablecoin: solve the **volatility** problem
+    - **programmable** stablecoin can used as smart contract and other applications
+    - people who hold token MKR can **vote** for important decision such as *Stability Fee* (similar to Federal Reserve's Open Market Commitee vote for fed fund fee)
