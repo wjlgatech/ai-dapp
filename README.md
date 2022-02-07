@@ -4,9 +4,9 @@
 
 **2022 Q1: 01/01/2022-03/31/2022**
 
-1. learn blockchain technologies and cryto tradings 
-2. build a AI based cryto trading Dapp
-3. establish a synergetic community to learn & make
+1. learn blockchain technologies and cryto economics, focus on both principles and practices.
+2. build a AI based cryto trading Dapp, or like, as a capstone.
+3. establish a community for both learning and making.
 
 ## Want to join a learning group?
 - Please shoot me a message through [Linkedin](https://www.linkedin.com/in/paul-jialiang-wu-67aa7179/)
