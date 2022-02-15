@@ -1,0 +1,1 @@
+console.log('Hi, js code should be separated from html. Therefore it is here in index.js instead of index.html');
