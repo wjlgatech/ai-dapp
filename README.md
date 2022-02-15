@@ -28,6 +28,7 @@
 10. [4/5] 02/01/2022 - 02/05/2022 [DiFi crash course](https://github.com/wjlgatech/ai-dapp/tree/main/DiFi)
 11. [5/5] 02/07/2022 [Understand when to use Blockchain](https://github.com/wjlgatech/ai-dapp/tree/main/when_to_use_blockchain)
 12. [3/5] 02/09/2022 [Ethereum Development Part 1](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
+13. [4/5] 02/14/2022 [Ethereum-1: JS to Solidity](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
 
 ### Useful Resources
 - [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)
