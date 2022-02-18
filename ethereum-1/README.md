@@ -206,7 +206,41 @@ employer.getWage();
 
 ### Solidity Data Structure
 
-### Modifiers & Requires
+
+### Require statement
+Situation: you want only certain people and certain address to be able to modify the state of a Smart Contract (e.g. use the `increase` function of your counter). How do you impose such constrain?
+
+Target: you can use `Require` statement
+
+### Modifier
+Situation: you want to use the require statement again and again by other functions, therefore you had better make the require statement a function that can be called by other functions.
+
+```js
+pragma solidity ^0.5.1;
+
+contract Counter {
+    uint256 public count;
+    address public owner;
+
+    modifier onlyOwner(){ //this modifier will modifer the function increament() below
+        require(msg.sender == owner); //the require statement impose a constraint that only 
+        _; //whichever function you put this modifier to, execute the require() first then the code of that function
+    }
+
+    constructor(uint256 _count) public{
+        count = _count;
+        owner = msg.sender
+    }
+
+    function increament() external onlyOwner { //now we call the function modifier `onlyOwer` to modifier increament()
+        count++;
+    }
+
+    function decrement() external onlyOwner{ // again, we call modifier onlyOwner() to modify decrement()
+        count--;
+    }
+}
+```
 
 ### Enums
 

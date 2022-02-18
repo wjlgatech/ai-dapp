@@ -15,7 +15,7 @@
 1. online meetup 2 hr/day * 3-4 days/week to learn & build (datetime TBD)
 2. weekly write about what I learn and share it in YouTube and Linkedin
 
-## Milestones
+## Babysteps & Milestones
 1. [5/5] 01/01/2022 [Explore Blockchain Principles](https://github.com/wjlgatech/ai-dapp/tree/main/learning-blockchain-principles)
 2. [5/5] 01/02/2022 [Understand Blockchain Economics](https://github.com/wjlgatech/ai-dapp/tree/main/learning-blockchain-economics)
 3. [5/5] 01/03/2022 [Javascript part1: building a milestones tracking website](https://github.com/wjlgatech/ai-dapp/tree/main/learning-js/milestones-website)
@@ -29,6 +29,9 @@
 11. [5/5] 02/07/2022 [Understand when to use Blockchain](https://github.com/wjlgatech/ai-dapp/tree/main/when_to_use_blockchain)
 12. [3/5] 02/09/2022 [Ethereum Development Part 1](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
 13. [4/5] 02/14/2022 [Ethereum-1: JS to Solidity](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
+14. [5/5] 02/18/2022 [Ethereum-1: data structure, modifier, requires](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
+15. [/5] 02/19/2022 [Ethereum-1: Enums, Payable events](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
+16. [/5] 02/20/2022 [Ethereum-1: Deployment, Interactions, Inheritance](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
 
 ### Useful Resources
 - [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)
