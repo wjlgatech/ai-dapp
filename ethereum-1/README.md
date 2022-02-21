@@ -243,5 +243,118 @@ contract Counter {
 ```
 
 ### Enums
+Q: what is Enums?
 
-### Payable Events
+A: Enum stands for the enumerated options, e.g. a dropdown-manual that contains a list of options that you can choose for a variable. Enum is user-defined datatype that imposes constrains on a variable to have only a few predefined values. For instance, you can define a Enum `Gendre` to have 2 options {MALE, FEMALE}; this dropdown-manual can be used to restrict variable `sex` to have only 2 possible values {MALE, FEMALE}. Another example: you can define a Enum `Levels` to have 4 options {JUNIOR,SENIOR, PRINCIPLE, SENIOR PRINCIPLE}; this dropdown-manual can be use to restrict variable `job-level` to choose from those 4 possible values.
+
+```js
+//the content of Season.sol
+
+pragma solidity ^0.5.11;
+
+contract Fall {
+    
+    enum Season {FALL, WINTER} //use the keyword `enum` to define a 'dropdown-manual' Season that have 2 predefined values {FALL, WINTER}. This makes Season a user-defined datatype.
+    Season public currentSeason; //we define a variable currentSeason which takes value from the user-defined 'dropdown-manual' Season
+
+    bool public colorfulLeaves; //define another variable colorfulLeaves with *dtype* bool and *accesibility* public
+    modifier inSeason(Season expectedSeason) { //define a modifier function which is a piece of code to the condition check for us
+        require(currentSeason == expectedSeason); //check this condition require() before doing anything else!
+        _;
+    }
+    // check: if the public variable currentSeason is FALL, then set the colorful leaves to true; otherwise, set colorful leaves to false
+    function leavesChangeColor() external inSeason(Season.FALL) {
+        colorfulLeaves = true;
+    }
+
+    //define a function fallToWintor that assign value WINTER to public variable currentSeason; we also want this function can be accessed by external user
+    function fallToWinter() external {
+        currentSeason = Season.WINTER;
+        colorfulLeaves = false;
+    }
+    //define another function winterToFall (we skip spring, summer for the sake of simplicity) that assigns value Fall to the public variable currentSeason; we also want this function be publically accessible
+    function winterToFall() external {
+        currentSeason = Season.FALL;
+        colorfulLeaves = true;
+    }
+
+}
+```
+
+### Payable events
+source: https://courses.blockgeeks.com/lesson/payable-events/
+
+Q: What is payable event?
+A: a function with `msg.value > 0` means the caller of this function must pay any amount of Ether over 0.
+
+Q: What is a fallback function in an Ethereum contract?
+A: When somebody calls the contract but does not specify which function to use, the fallback function will be ran by default.
+
+
+```js
+pragma solidity ^0.5.11;
+
+contract Count{
+    uint public counter; //define a variable counter with *datatype* unsigned int and *accesibility* public
+    event Transfer(address who, uint amount); // create an event Transfer() with 2 inputs: who (address) and amount (uint dtype)
+
+    // use a constructor function to init the contract state
+    constructor() public { 
+        counter = 0;
+    }
+    //define payable function, which can receive funds
+    function increment() payable external {
+        //require funds to be greater than 0
+        require(msg.value > 0);
+        counter++;
+    }
+
+    function decrement() external {
+        counter--;
+        emit Transfer(msg.sender, address(this).balance);//fire off the event with the msg.sender and the balance of this contract
+        msg.sender.transfer(address(this).balance); //transfer the fund of this contract (e.g. address(this).balance) to the person call this function (e.g. msg.sender)
+
+    } 
+
+    function () external { //when a function is un-named, it will be called whenever a transaction is sent here but without specifying a function
+        counter++;
+    }  
+
+    function getBalance() view external returns (uint){
+        return address(this).balance;
+    }
+}
+
+```
+
+
+
+### Deploy your smart contract
+
+source: https://courses.blockgeeks.com/lesson/deploying-your-contract/
+
+Q: What is MetaMask?
+
+Source: 
+- https://metamask.io/ 
+- https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en&authuser=1
+
+- MM is an Ethereum wallet in your chrome browser.
+- MM is a Chrome extension that allows you to access Ethereum enabled distributed applications (DApps) in your Chrome browser.
+- MM let you create your IDs (via private keys, local client wallet, and hardware wallets) and manage them. So that when a Dapp want to perform an transaction and write to the blockchain, you have a secure interface (`Mask`) to review this transaction before you approve it or reject it.
+
+- Because MM add functionality to a normal browser, MM requires you give it permission to read and write to any webpage. You can always view the source of MM here: github.com/MetaMask/metamask-plugin
+
+- MM enable you to access to 
+    - web 3.0
+    - Dapps
+    - NFTs
+    - erc20
+    - tokens
+    - ICOs
+    - erc271
+    - ...
+
+Q: Why deploying my contract? 
+
+Q: How to deploy my contract?

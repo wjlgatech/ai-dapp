@@ -31,7 +31,7 @@
 13. [4/5] 02/14/2022 [Ethereum-1: JS to Solidity](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
 14. [5/5] 02/18/2022 [Ethereum-1: data structure, modifier, requires](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
 15. [/5] 02/19/2022 [Ethereum-1: Enums, Payable events](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
-16. [/5] 02/20/2022 [Ethereum-1: Deployment, Interactions, Inheritance](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
+16. [3/5] 02/21/2022 [Ethereum-1: Deploy your smart contract](https://github.com/wjlgatech/ai-dapp/tree/main/ethereum-1)
 
 ### Useful Resources
 - [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)
