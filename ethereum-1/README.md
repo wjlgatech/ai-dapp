@@ -1,6 +1,8 @@
 
 ## Ethereum developer Part1
-source: https://courses.blockgeeks.com/course/eth-101-ethereum-developer-course/
+source1: Ethereum developer 101 https://courses.blockgeeks.com/course/eth-101-ethereum-developer-course/
+
+source2: Ethereum contract 101 https://courses.blockgeeks.com/course/bg101-ethereum-course-101/
 
 - History of blockchain
 - Blockchain architecture
