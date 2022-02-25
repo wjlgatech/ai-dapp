@@ -358,3 +358,49 @@ Source:
 Q: Why deploying my contract? 
 
 Q: How to deploy my contract?
+
+### Deploy your contract using a cryto wallet (e.g. MetaMask)
+
+source:https://courses.blockgeeks.com/lesson/deploying-your-contract/
+
+- **keep seedphrase to yourself, not any other** when you create a new wallet, make sure that you write down all the seed phrases and recovery information and keep them in a safe place. Never share your seed phrase with other people.
+
+- **use your dev wallet for development, not your fund wallet** It's a good practice that when you launch contracts or any other development work, you use a different wallet than your primary/fund storing wallet.
+
+- when you deploy your contract through a wallet (e.g. MetaMask), you need to change your Remix environment to `injected Web3`. i.e. MetaMask bring web3 components (e.g. Ethereum) to your rutine web browser.
+
+- When you deploy a contract on a `block explorer` (e.g. Etherscan), the 'Input Data' field contains your `compiled-down bytecode`.
+
+### Interactions & Inheritance
+source: https://courses.blockgeeks.com/lesson/interactions-and-inheritance/
+
+inheritance means a 2nd contract can obtain the functions and attributes of the 1st contract.
+
+```js
+pragma solidity ^0.5.11;
+
+contract Counter {
+    uint public count;
+
+    function increment() external {
+        require(msg.sender != tx.origin); //you can not call this function directly, but through another contract
+        count++;
+    }
+}
+
+//inherit functions from contract Counter
+contract interact is Counter {
+    //create a spaceholder to keep my instance
+    Counter counterInstance;
+
+    constructor(address _counter) public{
+        // init my instance
+        counterInstance = Counter(_counter);
+    }
+
+    function incrementCounter() external {
+        //now you can call functions with our instance
+        counterInstance.increment();
+    }
+}
+```
