@@ -38,4 +38,7 @@
 - [DeFi Dataset from DefiLlama](https://www.kaggle.com/sudalairajkumar/defi-dataset-from-defillama)
 
 - [Cryto Theses for 2022 by Messari](https://github.com/wjlgatech/ai-dapp/blob/main/messari-report-crypto-theses-for-2022.pdf)
+
 - [CrytoEconomics libraries](https://consensys.net/insights/cryptoeconomic-research/?utm_content=197011885&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9373737)
+
+- [full blockchain solidity course in Python](https://github.com/wjlgatech/full-blockchain-solidity-course-py)
